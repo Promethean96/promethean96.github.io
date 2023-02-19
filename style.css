@@ -1,0 +1,38 @@
+.bold {
+    font-weight: bold;
+}
+
+div p, .contact, .contacthead {
+    position: relative;
+    text-align: right;
+    margin: 0;
+    font-family: cursive;
+    margin-right: 20px;
+}
+
+header h1, header p, body {
+    margin: 20px;
+}
+
+h3 {
+    color:dodgerblue;
+}
+.jobs h2 {
+    color:rgb(58, 58, 58);
+}
+
+.contacthead, .job {
+    color:black;
+}
+
+.jobs h6 {
+    color:brown;
+}
+
+.desc {
+    width: 700px;
+}
+
+.body {
+    display: inline-block;
+}
