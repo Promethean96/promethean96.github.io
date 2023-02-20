@@ -1,0 +1,65 @@
+* {
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+
+.banner {
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner::before {
+    content: "";
+    background-image: url("./Pictures/Hockey\ Cover.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+
+h1 {
+    position: relative;
+    color: #000000;  
+    font-size: 100px;
+    line-height: 0.9;
+    text-align: center;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #111;
+  }
+
+  .mainbody {
+    background-color: #d1d1d1;
+  }
+
+  .zoepic {
+    height: 600px;
+  }
+
+  .maxpic {
+    height: 600px;
+  }

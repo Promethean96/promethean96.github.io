@@ -55,3 +55,7 @@ li a:hover {
   .mainbody {
     background-color: #d1d1d1;
   }
+
+  .mepic {
+    height: 600px;
+  }
