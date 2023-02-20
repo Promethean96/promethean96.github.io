@@ -9,12 +9,12 @@
 header > h1 {
     font-size: 60px;
     position: relative;
-    left: 200px;
+    left: 100px;
 }
 
 header > p {
     position: relative;
-    left: 250px;
+    left: 120px;
     color: gray;
 }
 
