@@ -1,0 +1,33 @@
+* {
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+
+.banner {
+    position: relative; 
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner::before {
+    content: "";
+    background-image: url("./Pictures/Hockey\ Cover.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+
+h1 {
+    position: relative;
+    color: #000000;  
+    font-size: 100px;
+    line-height: 0.9;
+    text-align: center;
+  }
