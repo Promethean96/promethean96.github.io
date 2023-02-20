@@ -5,6 +5,32 @@
     font-family: 'Lato', sans-serif;
     line-height: 1;
 }
+
+header > h1 {
+    font-size: 60px;
+    position: relative;
+    left: 200px;
+}
+
+header > p {
+    position: relative;
+    left: 250px;
+    color: gray;
+}
+
+.skills > h4 {
+    position: absolute;
+    top: 140px;
+    right: 210px;
+    font-size: 30px;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-top: 130px
+}
+
 div p, .contacthead {
     position: relative;
     text-align: right;
@@ -35,11 +61,13 @@ div.contact {
     text-align: right;
 }
 
-h3 {
+h3, h4 {
     color:dodgerblue;
     margin-top: 100px;
+    margin-bottom: 40px;
     line-height: 0;
 }
+
 .jobs h2 {
     color:rgb(58, 58, 58);
 }
@@ -49,14 +77,31 @@ h3 {
 
 }
 
-.jobs h6 {
+.jobs > h6 {
     color: gray;
+    margin: 0;
+    line-height: 0;
+    margin-bottom: 20px;
 }
 
 .desc {
     width: 700px;
 }
 
+.desc2 {
+    width: 700px;
+    margin-top: 1;
+}
+
+.jobs > .desc2 {
+    width: 700px;
+    margin: 0;
+}
+
 .body {
     display: inline-block;
+}
+
+.jobs > p {
+    line-height: 1.1;
 }
