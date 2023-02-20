@@ -1,9 +1,10 @@
-.bold {
-    font-weight: bold;
-}
 * {
     font-family: 'Lato', sans-serif;
     line-height: 1;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .banner {
@@ -14,7 +15,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .banner::before {
     content: "";
     background-image: url("./Pictures/Hockey\ Cover.jpg");
@@ -26,7 +26,6 @@
       left: 0px;
       opacity: 0.5;
 }
-
 h1 {
     position: relative;
     color: #000000;  
@@ -34,15 +33,13 @@ h1 {
     line-height: 0.9;
     text-align: center;
   }
-
-ul {
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
   }
-
 li a {
     display: block;
     color: white;
@@ -50,44 +47,38 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
   }
-
 li a:hover {
     background-color: #111;
   }
-  
 header > h1 {
     font-size: 60px;
     position: relative;
     left: 100px;
 }
-
 header > p {
     position: relative;
     left: 120px;
     color: gray;
 }
-
-.skills > h4 {
+.skills >h4 {
     position: absolute;
-    top: 130px;
-    right: 210px;
-    font-size: 30px;
+    margin-left: 830px;
+    margin-top: 100px;
+    font-size: 40px;
 }
-
 #skilllist {
-    position: relative;
+    position: absolute;
     float: right;
+    margin-left: 800px;
     margin-top: 130px
 }
-
 #nav {
     position: absolute;
     top: 20px;
     right: 30px;
     margin-top: 0px
 }
-
-div p, .contacthead {
+div + p, .contacthead {
     position: relative;
     text-align: right;
     margin: 0;
@@ -107,7 +98,6 @@ div p, .contacthead {
 header h1, header p, body {
     margin: 20px;
 }
-
 div.contact {
     position: absolute;
     top: 30px;
@@ -116,43 +106,38 @@ div.contact {
     height: 100px;
     text-align: right;
 }
-
 h3, h4 {
     color:dodgerblue;
     margin-top: 100px;
     margin-bottom: 40px;
     line-height: 0;
 }
-
 h2 {
     color:rgb(58, 58, 58);
 }
-
 .contacthead, .job {
     color:black;
 
 }
-
 h6 {
     color: gray;
     margin: 0;
     line-height: 0;
     margin-bottom: 20px;
 }
-
 .desc {
     width: 600px;
 }
-
 .jobs > .desc2 {
     width: 700px;
     margin: 0;
 }
-
 .body {
     display: inline-block;
 }
-
 .jobs > p {
     line-height: 1.1;
+}
+.bodys {
+    font-family: 'Lato', sans-serif;
 }
