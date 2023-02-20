@@ -1,21 +1,44 @@
 .bold {
     font-weight: bold;
 }
-
-div p, .contact, .contacthead {
+* {
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+div p, .contacthead {
     position: relative;
     text-align: right;
     margin: 0;
-    font-family: cursive;
+    margin-top: 30px;
     margin-right: 20px;
+    margin-bottom: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.contacthead {
+    font-size: 30px;
+}
+.contact p {
+    line-height: 0.3;
 }
 
 header h1, header p, body {
     margin: 20px;
 }
 
+div.contact {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 300px;
+    height: 100px;
+    text-align: right;
+}
+
 h3 {
     color:dodgerblue;
+    margin-top: 100px;
+    line-height: 0;
 }
 .jobs h2 {
     color:rgb(58, 58, 58);
@@ -23,10 +46,11 @@ h3 {
 
 .contacthead, .job {
     color:black;
+
 }
 
 .jobs h6 {
-    color:brown;
+    color: gray;
 }
 
 .desc {
