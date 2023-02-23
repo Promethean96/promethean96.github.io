@@ -20,10 +20,159 @@
         <br>
         <table>
             <thead>
+                <caption>HMTL Elements</caption>
+                <tr>
+                    <th class="th1" rowspan="2">Element</th>
+                    <th class="th3">Description</th>
+                </tr>
+                <tr>
+                    <th class="th3t"><span class="ital">Tip:</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Comment-->
+                <tr>
+                    <td class="code">&lt;!--...--&gt;</td>
+                    <td>Used to insert comments in the source code. Comments are not displayed in the browsers.</td>
+                </tr>
+                <!--Anchor-->
+                <tr class="altrow">
+                    <td class="code">&lt;a=&gt;</td>
+                    <td>Defines a hyperlink, which is used to link from one page to another. 
+                        <br><span class="ital">You must include a reference attribute as well.</span></td>
+                </tr>
+                <!--Abbreviation-->
+                <tr>
+                    <td class="code">&lt;abbr&gt;</td>
+                    <td>Defines an abbreviation or acronym.
+                        <br><span class="ital">Use the global &lt;title&gt; attribute to show the description for the abbreviation or acronym when you mouse over the element.</span></td>
+                </tr>
+                <!--Address-->
+                </tr>
+                <tr class="altrow">
+                    <td class="code">&lt;address&gt;</td>
+                    <td>Defnies the contact information for the author/owner of a document or article.
+                        <br><span class="ital">The text in this element usually renders in italic and browsers will always add a line break before and after.<br>
+                        It is recommended to use &lt;br&gt; on each line of contact</span></td>
+                </tr>
+                <!--Area-->
+                <tr>
+                    <td class="code">&lt;area&gt;</td>
+                    <td>Defines an area inside an image map.
+                        <br><span class="ital">This element is always nested inside a &lt;map&gt; tag<br>
+                        The usemap attribute in &lt;img&gt; is associated with the &lt;map&gt; element's name attribute, and creates a relationship between the image and the map.</span></td>
+                </tr>
+                <!--Article-->
+                <tr class="altrow">
+                    <td class="code">&lt;article&gt;</td>
+                    <td>Specifies independent, self-contained content. An article should make sense on its own.
+                        <br><span class="ital">This element does not render anything special but can be styled using CSS.</span></td>
+                </tr>
+                <!--Aside-->
+                <tr>
+                    <td class="code">&lt;aside&gt;</td>
+                    <td>Defines some content aside from the content it is placed in.
+                        <br><span class="ital">This element is often placed as a sidebar in a document. It does not render anything special but can be styled with CSS.</span></td>
+                </tr>
+                <!--Audio-->
+                <tr>
+                    <td class="code">&lt;audio&gt;</td>
+                    <td>Used to embed sound content in a document, such as music or audio streams. Must containt a source attribute. 
+                        <br><span class="ital">HTML supports MP3, WAV, and OCG. Safari does not support OCG.</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <table>
+            <thead>
+                <caption>HMTL Attributes</caption>
+                <tr>
+                    <th class="th1" rowspan="2">Attriblue</th>
+                    <th class="th3">Description</th>
+                </tr>
+                <tr>
+                    <th class="th3t"><span class="ital">Tip:</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--A HRef-->
+                <tr>
+                    <td class="code">href=</td>
+                    <td>Specifies the URL of the page the reference goes to.</td>
+                </tr>
+                <!--IMG SRC-->
+                <tr class="altrow">
+                    <td class="code">src=</td>
+                    <td>Specifiec the source/path to the image being displayed.
+                        <br><span class="ital">Absolute URL link to external sources and should be avoided. Relative URL link within your site and should be used.</span></td>
+                </tr>
+                <!--IMG Dimensions-->
+                <tr>
+                    <td class="code">width= or height=</td>
+                    <td>Specify which Width or Height the image should be.
+                        <br><span class="ital">It is recommended to use at least one of these for every &lt;img&gt;</span></td>
+                </tr>
+                <!--Image Alt-->
+                </tr>
+                <tr class="altrow">
+                    <td class="code">alt=</td>
+                    <td>Specifies an alternate text for an image 
+                        <br><span class="ital">If the image cannor be displayed, due to an error or slow connection, this will be displayed. This will also be used for screen reader applications.</span></td>
+                </tr>
+                <!--Style-->
+                <tr>
+                    <td class="code">style=</td>
+                    <td>Attribute to apply styles to an element, such as color, font, size, and more.
+                        <br><span class="ital">Please also refer to styles table.</span></td>
+                </tr>
+                <!--Language-->
+                <tr class="altrow">
+                    <td class="code">lang=</td>
+                    <td>Defines the language of the web page.
+                        <br><span class="ital">You should always include a language in your web code.</span></td>
+                </tr>
+                <!--Title-->
+                <tr>
+                    <td class="code">title=</td>
+                    <td>Defines some extra information about an element.
+                        <br><span class="ital">The value of the title attribute will be displayed as a tooltip when you mouse over the element.</span></td>
+                </tr>
+                <!--Autoplay-->
+                <tr>
+                    <td class="code">autoplay</td>
+                    <td>Specifies that the audio will start playing as soon as it is ready.</td>
+                </tr>
+                <!--Controls-->
+                <tr>
+                    <td class="code">controls</td>
+                    <td>Specifies that the audio controls should be displayed. Such as a play/pause button.</td>
+                </tr>
+                <!--Loop-->
+                <tr>
+                    <td class="code">loop</td>
+                    <td>Specifies that the audio will start over again, every time it is finished.</td>
+                </tr>
+                <!--Muted-->
+                <tr>
+                    <td class="code">muted</td>
+                    <td>Specifies that the audio output should be muted.</td>
+                </tr>
+                <!--Preload-->
+                <tr>
+                    <td class="code">preload=</td>
+                    <td>Specifies if and how the author thinks the audio should be loaded when the page loads. Value can be auto, metadata, or none.</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <table>
+            <thead>
                 <caption>HMTL Table Reference</caption>
                 <tr>
                     <th class="th1" rowspan="2">Selector</th>
-                    <th class="th1" rowspan="2">Example</th>
+                    <th class="th1" rowspan="2">Meaning</th>
                     <th class="th3">Description</th>
                 </tr>
                 <tr>
