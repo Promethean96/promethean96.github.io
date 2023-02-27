@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: default;
 }
 
 .banner::before {
@@ -136,3 +137,15 @@ td {
     font-style: italic;
     font-size: 13px;
 }
+.actbtn {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    border: solid 1px black;
+    border-radius: 10px;
+    cursor:grab;
+  }
+  .btn:hover {
+    background-color: #111;
+  }

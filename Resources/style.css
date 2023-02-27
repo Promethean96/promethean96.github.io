@@ -14,6 +14,7 @@ py* {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: default;
 }
 .banner::before {
     content: "";
@@ -47,7 +48,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
   }
-li a:hover {
+  .btn:hover {
     background-color: #111;
   }
 header > h1 {
@@ -141,3 +142,15 @@ h6 {
 .bodys {
     font-family: 'Lato', sans-serif;
 }
+.actbtn {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    border: solid 1px black;
+    border-radius: 10px;
+    cursor:grab;
+  }
+  .btn:hover {
+    background-color: #111;
+  }

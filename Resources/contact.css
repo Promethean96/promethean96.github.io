@@ -10,7 +10,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: default;
 }
 
 .banner::before {
@@ -49,7 +48,7 @@ li a {
     text-decoration: none;
   }
 
-.btn:hover {
+li a:hover {
     background-color: #111;
   }
 
@@ -64,18 +63,4 @@ li a {
 .cs {
   color: black;
   text-decoration: none;
-}
-
-.actbtn {
-  background-color: aliceblue;
-  color: black;
-  font-weight: bolder;
-  font-size: larger;
-  border: solid 1px black;
-  border-radius: 10px;
-  cursor:grab;
-}
-
-.cs:hover {
-  cursor: default;
 }
