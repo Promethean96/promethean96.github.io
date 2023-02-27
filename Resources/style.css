@@ -1,66 +1,3 @@
-py* {
-    font-family: 'Lato', sans-serif;
-    line-height: 1;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.banner {
-    position: relative; 
-    height: 300px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: default;
-}
-.banner::before {
-    content: "";
-    background-image: url("./Pictures/Hockey\ Cover.jpg");
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.5;
-}
-h1 {
-    position: relative;
-    color: #000000;  
-    font-size: 100px;
-    line-height: 0.9;
-    text-align: center;
-  }
-nav > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .btn:hover {
-    background-color: #111;
-  }
-header > h1 {
-    font-size: 60px;
-    position: relative;
-    left: 100px;
-}
-header > p {
-    position: relative;
-    left: 120px;
-    color: gray;
-}
 .skills >h4 {
     position: absolute;
     margin-left: 830px;
@@ -71,13 +8,8 @@ header > p {
     position: absolute;
     float: right;
     margin-left: 800px;
-    margin-top: 130px
-}
-#nav {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    margin-top: 0px
+    margin-top: 130px;
+    background-color: white;
 }
 div + p, .contacthead {
     position: relative;
@@ -89,68 +21,18 @@ div + p, .contacthead {
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
-.contacthead {
-    font-size: 30px;
-}
-.contact p {
-    line-height: 0.3;
-}
-
-header h1, header p, body {
-    margin: 20px;
-}
-div.contact {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 300px;
-    height: 100px;
-    text-align: right;
-}
 h3, h4 {
     color:dodgerblue;
     margin-top: 100px;
     margin-bottom: 40px;
     line-height: 0;
 }
-h2 {
-    color:rgb(58, 58, 58);
-}
-.contacthead, .job {
-    color:black;
-
-}
+h2 {color:rgba(58, 58, 58, 0.3);}
+.job {color:black;}
 h6 {
     color: gray;
     margin: 0;
     line-height: 0;
     margin-bottom: 20px;
 }
-.desc {
-    width: 600px;
-}
-.jobs > .desc2 {
-    width: 700px;
-    margin: 0;
-}
-.body {
-    display: inline-block;
-}
-.jobs > p {
-    line-height: 1.1;
-}
-.bodys {
-    font-family: 'Lato', sans-serif;
-}
-.actbtn {
-    background-color: aliceblue;
-    color: black;
-    font-weight: bolder;
-    font-size: larger;
-    border: solid 1px black;
-    border-radius: 10px;
-    cursor:grab;
-  }
-  .btn:hover {
-    background-color: #111;
-  }
+.desc {width: 600px;}
